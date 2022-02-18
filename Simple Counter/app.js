@@ -11,5 +11,7 @@ function increment() {
 function save() {
     let saveCount = count + " - "
     saveEl.innerText += saveCount
+    countEl.innerText = 0
+    count = 0
     console.log("Saved")
 }
