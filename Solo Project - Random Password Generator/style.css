@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html, body {
+    font-family: 'Inter', sans-serif;;
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow: hidden;
+}
+
+main {
+    padding: 110px 52px 42px;
+    margin: 100px auto;
+    width: 500px;
+    background: #1F2937;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+.heading span {
+    color: #34D399;
+}
+
+p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 10px 0;
+    color: #D5D4D8;
+}
+
+button {
+    height: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 48px;
+    padding: 9px 18px;
+    color: white;
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+
+hr {
+    margin: 30px 0;
+    border-style: none;
+    border-top: 1px solid #2F3E53;;
+}
+
+.passwords-section {
+    text-align: center;
+    display: grid;
+    justify-items:auto;
+    grid-template-columns: 50% 50%;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #34D399;
+    margin: 20px 0;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+}
